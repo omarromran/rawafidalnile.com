@@ -44,7 +44,7 @@ Suggested structure:
 index.html
 css/styles.css
 js/site.js
-assets/logo.jpg
+assets/rawafed-logo.webp
 assets/hero/
 assets/sectors/
 assets/project/
@@ -86,7 +86,7 @@ README.md
 
 - [x] Add a useful meta description.
 - [x] Add canonical, Open Graph, and social preview metadata.
-- [x] Add a favicon and appropriate site identity metadata.
+- [x] Keep favicon disabled until a final mark is approved; retain site identity metadata.
 - [x] Keep English and Arabic on one page for the current release; revisit separate URLs after search-performance data.
 - [x] Add structured organization and location data using approved site contact details.
 - [x] Add direct telephone and email actions, plus office map links. WhatsApp is intentionally excluded.

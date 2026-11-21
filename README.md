@@ -12,6 +12,6 @@ Open `index.html` in a browser, or use a VS Code-compatible live preview extensi
 - `css/styles.css` — layout, typography, responsive styles, and accessibility states.
 - `js/site.js` — language switching, navigation, and carousel behavior.
 - `content/site-content.js` — shared navigation and site metadata.
-- `assets/rawafed-logo.jpeg` — supplied high-resolution logo displayed as the clickable header link.
+- `assets/rawafed-logo.webp` — supplied high-resolution logo displayed as the clickable header link and social preview image.
 
 The remaining photo blocks are intentional placeholders until approved image assets are supplied.
