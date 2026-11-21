@@ -6,6 +6,10 @@ Static bilingual landing page for Rawafed Al Nile for Investment and Development
 
 Open `index.html` in a browser, or use a VS Code-compatible live preview extension. Keep the project root as the preview server root so `css/`, `js/`, `content/`, and `assets/` resolve correctly.
 
+## Cloudflare Pages deployment
+
+The site deploys from `main` using Cloudflare Pages. The GitHub repository needs these Actions secrets: `CLOUDFLARE_API_TOKEN` with Pages edit permission and `CLOUDFLARE_ACCOUNT_ID`. The Cloudflare Pages project name is `rawafed-alnile`. Attach `rawafedalnile.com` under Cloudflare Pages → Custom domains after the first successful deployment.
+
 ## Project structure
 
 - `index.html` — page structure and bilingual business content.
