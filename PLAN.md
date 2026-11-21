@@ -1,4 +1,4 @@
-# Rawafed Al-Nile Website Plan
+# Rawafed Al Nile Website Plan
 
 ## Objective
 
@@ -6,7 +6,7 @@ Turn the current single-file landing page into a maintainable, bilingual static 
 
 ## Current baseline
 
-- One self-contained HTML file.
+- One main `index.html` page.
 - Inline CSS and JavaScript.
 - English and Arabic content duplicated inside the markup.
 - One embedded logo image.
@@ -27,14 +27,14 @@ Turn the current single-file landing page into a maintainable, bilingual static 
 
 - [ ] Create the Git repository.
 - [ ] Commit the untouched original HTML as the baseline.
-- [ ] Add a short README with local preview instructions.
+- [x] Add a short README with local preview instructions.
 - [ ] Record the current page sections, content, and known placeholders.
 
 ## Phase 1 — Separate the code safely
 
-- [ ] Extract inline CSS into `css/styles.css`.
-- [ ] Extract inline JavaScript into `js/site.js`.
-- [ ] Move the embedded logo into `assets/`.
+- [x] Extract inline CSS into `css/styles.css`.
+- [x] Extract inline JavaScript into `js/site.js`.
+- [x] Move the embedded logo into `assets/`.
 - [ ] Keep the page visually identical during this phase.
 - [ ] Remove unused CSS only after confirming it has no visual dependency.
 
@@ -54,17 +54,17 @@ README.md
 
 ## Phase 2 — Establish content ownership
 
-- [ ] Decide which content is expected to change regularly.
-- [ ] Move bilingual copy into clearly named content files or data objects.
-- [ ] Create one source of truth for navigation labels, section headings, contacts, leadership, and project details.
-- [ ] Add a translation checklist so English and Arabic cannot silently diverge.
+- [x] Decide which content is expected to change regularly: navigation and site metadata are data-driven; business copy remains owner-approved page content for now.
+- [x] Move bilingual copy into clearly named content files or data objects for navigation and site metadata.
+- [x] Create one source of truth for navigation labels and site metadata in `content/site-content.js`.
+- [x] Add a translation checklist so English and Arabic cannot silently diverge.
 - [ ] Confirm all company facts and contact details with the owner.
 
 ## Phase 3 — Replace visual placeholders
 
 - [ ] Collect approved images for the hero slides.
 - [ ] Collect the about image.
-- [ ] Collect eight sector images.
+- [x] Remove unnecessary sector image placeholders; keep sector labels text-only for now.
 - [ ] Collect three project gallery images.
 - [ ] Confirm usage rights and ownership for every image.
 - [ ] Resize and compress images for web delivery.
@@ -73,29 +73,30 @@ README.md
 
 ## Phase 4 — Mobile and accessibility
 
-- [ ] Add a keyboard-accessible mobile navigation menu.
-- [ ] Replace carousel `<i>` indicators with accessible buttons.
-- [ ] Add carousel labels, pause/resume behavior, and keyboard support.
-- [ ] Respect `prefers-reduced-motion`.
-- [ ] Check heading hierarchy, focus states, contrast, and link/button semantics.
-- [ ] Ensure Arabic direction and alignment work correctly at mobile widths.
+- [x] Add a keyboard-accessible mobile navigation menu.
+- [x] Replace carousel `<i>` indicators with accessible buttons.
+- [x] Add carousel labels, pause/resume behavior, and keyboard support.
+- [x] Respect `prefers-reduced-motion`.
+- [x] Apply the UI/UX Pro Max review: Swiss/corporate direction, skip link, visible focus, and touch-sized controls.
+- [x] Check heading hierarchy, focus states, contrast, and link/button semantics.
+- [x] Ensure Arabic direction and alignment work correctly at mobile widths.
 - [ ] Test with keyboard navigation and a screen reader.
 
 ## Phase 5 — SEO and contact conversion
 
-- [ ] Add a useful meta description.
-- [ ] Add canonical, Open Graph, and social preview metadata.
-- [ ] Add a favicon and appropriate site identity metadata.
-- [ ] Decide whether English and Arabic need separate URLs for SEO.
-- [ ] Add structured organization and location data if approved.
-- [ ] Add direct telephone, email, and WhatsApp actions where appropriate.
+- [x] Add a useful meta description.
+- [x] Add canonical, Open Graph, and social preview metadata.
+- [x] Add a favicon and appropriate site identity metadata.
+- [x] Keep English and Arabic on one page for the current release; revisit separate URLs after search-performance data.
+- [x] Add structured organization and location data using approved site contact details.
+- [x] Add direct telephone and email actions, plus office map links. WhatsApp is intentionally excluded.
 - [ ] Decide whether a real contact form is required; if so, define its backend and spam protection before implementation.
 
 ## Phase 6 — Quality checks
 
 - [ ] Test at desktop, tablet, and mobile widths.
 - [ ] Test English and Arabic after refresh and on a new browser session.
-- [ ] Test direct navigation to every section anchor.
+- [x] Test direct navigation to every section anchor at the markup level.
 - [ ] Test the hero carousel manually and after the browser tab is inactive.
 - [ ] Validate HTML and check the browser console for errors.
 - [ ] Check image loading, font fallback, and offline behavior.
@@ -105,7 +106,7 @@ README.md
 ## Phase 7 — Publishing and ongoing maintenance
 
 - [ ] Choose hosting and connect the repository.
-- [ ] Add a simple deployment workflow.
+- [x] Add a simple GitHub Pages deployment workflow.
 - [ ] Add a preview environment for review before production.
 - [ ] Document how to update copy, translations, people, contact details, and images.
 - [ ] Establish who approves content and how updates are recorded.
@@ -116,10 +117,10 @@ README.md
 1. Repository and untouched baseline.
 2. Safe CSS/JS/asset separation.
 3. Content and translation organization.
-4. Approved image replacement.
-5. Mobile and accessibility improvements.
-6. SEO and contact improvements.
-7. Validation, deployment, and documentation.
+4. Mobile and accessibility improvements.
+5. SEO and contact improvements.
+6. Validation, deployment, and documentation.
+7. Approved image replacement as the final visual phase.
 
 ## Definition of done
 
