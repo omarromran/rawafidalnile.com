@@ -8,7 +8,7 @@ Open `index.html` in a browser, or use a VS Code-compatible live preview extensi
 
 ## Cloudflare Pages deployment
 
-The site deploys from `main` using Cloudflare Pages. The GitHub repository needs these Actions secrets: `CLOUDFLARE_API_TOKEN` with Pages edit permission and `CLOUDFLARE_ACCOUNT_ID`. The Cloudflare Pages project name is `rawafed-alnile`. Attach `rawafedalnile.com` under Cloudflare Pages → Custom domains after the first successful deployment.
+The site deploys from `main` using Cloudflare Pages. The GitHub repository needs these Actions secrets: `CLOUDFLARE_API_TOKEN` with Pages edit permission and `CLOUDFLARE_ACCOUNT_ID`. The Cloudflare Pages project name is `rawafidalnile-com`. Attach `rawafedalnile.com` under Cloudflare Pages → Custom domains after the first successful deployment.
 
 ## Project structure
 
