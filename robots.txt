@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rawafedalnile.com/sitemap.xml
+Sitemap: https://rawafedalnile.com/sitemap.xml

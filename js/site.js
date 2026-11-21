@@ -15,5 +15,17 @@
   dt.forEach(function(x,k){x.onclick=function(){show(k);start()}});show(0);
   if(toggle){toggle.onclick=function(){paused=!paused;toggle.setAttribute('aria-pressed',String(paused));toggle.querySelector('.en').textContent=paused?'Resume':'Pause';toggle.querySelector('.ar').textContent=paused?'استئناف':'إيقاف مؤقت';paused?stop():start()}}
   if(hero){hero.onmouseenter=function(){stop()};hero.onmouseleave=function(){start()};hero.onfocusin=function(){stop()};hero.onfocusout=function(e){if(!hero.contains(e.relatedTarget))start()}}
+  document.querySelectorAll('.profile-block').forEach(function(block,index){
+    var heading=block.querySelector('h3');
+    if(!heading)return;
+    var details=document.createElement('details');
+    details.className='profile-block';
+    details.open=index===0;
+    var summary=document.createElement('summary');
+    summary.innerHTML=heading.innerHTML;
+    details.appendChild(summary);
+    Array.prototype.slice.call(block.children).forEach(function(child){if(child!==heading)details.appendChild(child)});
+    block.replaceWith(details);
+  });
   start();
 })();
