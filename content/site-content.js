@@ -9,9 +9,10 @@
       { en: 'Vice Chairman – Government Relations. Former Police Major General with 33 years of service and experience in strategic leadership, planning, crisis management, decision-making and institutional governance.', ar: 'نائب رئيس مجلس الإدارة – العلاقات الحكومية. لواء شرطة سابق بخدمة 33 عامًا وخبرة في القيادة الاستراتيجية والتخطيط وإدارة الأزمات واتخاذ القرار والحوكمة المؤسسية.' }
     ],
     navigation: [
+      { href: '#about', en: 'About', ar: 'عن الشركة' },
+      { href: '#strategy', en: 'Strategy', ar: 'الاستراتيجية' },
       { href: '#sectors', en: 'Sectors', ar: 'القطاعات' },
-      { href: '#project', en: 'Project', ar: 'المشروع' },
-      { href: '#leadership', en: 'About & Leadership', ar: 'من نحن والقيادة' },
+      { href: '#leadership', en: 'Leadership', ar: 'القيادة' },
       { href: '#contact', en: 'Contact', ar: 'تواصل' }
     ]
   };

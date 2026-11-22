@@ -1,0 +1,38 @@
+.sector-page .nav { width: min(1150px, calc(100% - 40px)); margin-inline: auto; }
+.sector-page main { display: block; }
+.sector-page .sector-hero { padding: clamp(72px, 10vw, 128px) 0 72px; background: var(--alt); color: var(--ink); }
+.sector-page .sector-hero h1 { max-width: 900px; margin: 8px 0 18px; color: var(--ink); font-size: clamp(2.3rem, 5vw, 4.2rem); text-wrap: balance; }
+.sector-page .sector-hero p { max-width: 780px; margin: 0; color: var(--mute); font-size: clamp(1rem, 2vw, 1.2rem); }
+.sector-page .sector-hero .eyebrow { color: var(--gold); font-size: .8rem; font-weight: 600; letter-spacing: .06em; }
+.sector-page .sector-body { padding-block: 72px; }
+.sector-page .sector-body:nth-of-type(even) { background: var(--alt); }
+.sector-page .sector-body h2 { margin-bottom: 18px; }
+.sector-page .sector-body h3 { margin: 0 0 9px; color: var(--ink); }
+.sector-page .sector-intro { max-width: 820px; margin-bottom: 28px; }
+.sector-page .sector-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.sector-page .sector-card { min-height: 100%; padding: 24px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.sector-page .sector-card p { margin: 0; color: var(--mute); }
+.sector-page .sector-card ul { margin: 10px 0 0; padding-inline-start: 20px; color: var(--mute); }
+.sector-page .sector-card li + li { margin-top: 6px; }
+.sector-page .sector-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: center; }
+.sector-page .sector-split img { width: 100%; max-height: 420px; object-fit: cover; border-radius: 12px; }
+.sector-page .sector-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.sector-page .sector-tags span { padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px; color: var(--mute); }
+.sector-page .sector-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.sector-page .sector-step { padding: 20px; border-top: 2px solid var(--gold); }
+.sector-page .sector-step b { display: block; color: var(--gold); font: 600 1.4rem "Playfair Display", Georgia, serif; font-variant-numeric: tabular-nums; }
+.sector-page .sector-step span { display: block; margin-top: 6px; font-weight: 600; }
+.sector-page .back-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 28px; color: var(--gold); font-weight: 600; text-decoration: none; }
+.sector-page .back-link:hover { color: var(--ink); }
+html[data-theme="dark"] .sector-page .sector-hero { background: var(--bg); }
+html[data-theme="dark"] .sector-page .sector-card { background: var(--card); }
+
+@media (max-width: 820px) {
+  .sector-page .sector-grid, .sector-page .sector-steps { grid-template-columns: 1fr 1fr; }
+  .sector-page .sector-split { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .sector-page .nav { width: min(100% - 32px, 1150px); }
+  .sector-page .sector-grid, .sector-page .sector-steps { grid-template-columns: 1fr; }
+  .sector-page .sector-body { padding-block: 54px; }
+}
