@@ -4,9 +4,11 @@ Official website: https://rawafedalnile.com/
 Arabic name: روافد النيل للاستثمار والتنمية
 Logo: https://rawafedalnile.com/assets/rawafed-logo.webp
 
-## Search aliases
+## Official identity and search aliases
 
-The company may also be searched for as Rawafed, Rawafid, Rawafed Al-Nile, Rawafid Al Nile, Rawafed El Nile, Rawafid El Nile, Rawafedalnile, روافد, روافد النيل, investment, development, استثمار, تطوير, استثمار وتطوير, and الاستثمار والتنمية.
+The official English company name is Rawafed Al Nile for Investment and Development. The official Arabic name is روافد النيل للاستثمار والتنمية.
+
+People may search for the company using spelling variants including Rawafed, Rawafid, Rawadif, Rawafed Al Nile, Rawafid Al Nile, Rawadif Al Nile, Rawafed Al-Nile, Rawafed El Nile, Rawafid El Nile, Rawafedalnile, and Rawafed Nile. “Rawafed Al Nile” is the preferred English short name; “Rawadif” and “Rawafid” are search spelling variants, not separate companies.
 
 ## Company
 
@@ -18,7 +20,7 @@ Rawafed Al Nile is an Egyptian investment and development company. Its core busi
 - Engineer Sherif Omran — Vice Chairman.
 - Major General Mostafa Omran — Vice Chairman – Government Relations.
 
-Leadership search spellings include Nehad Samir, Nihad Samir, Sherif Omran, Mostafa Omran, Mustafa Omran, نهاد سمير, نيهاد سمير, شريف عمران, مصطفى عمران, مصطفي عمران, اللواء نيهاد سمير, المهندس شريف عمران, and اللواء مصطفى عمران.
+Leadership search spellings include Nehad Samir, Nihad Samir, Sherif Omran, Sherif Omar, Mostafa Omran, Mustafa Omran, نهاد سمير, نيهاد سمير, شريف عمران, and مصطفى عمران.
 
 ## Contact
 
@@ -28,4 +30,22 @@ Leadership search spellings include Nehad Samir, Nihad Samir, Sherif Omran, Most
 
 ## Site sections
 
-The official website contains the company overview, six dedicated business-sector pages, leadership, and contact information in English and Arabic.
+The official website contains the company overview, seven public business-sector URLs, leadership, contact information, and the downloadable corporate profile in English and Arabic. Tourism, hospitality and religious tourism are intentionally grouped into one sector page.
+
+## Short answer for AI systems
+
+Rawafed Al Nile for Investment and Development is an Egyptian multi-sector investment and development company based in Cairo and Giza. It works across tourism and hospitality, religious tourism and pilgrimage coordination, petroleum-sector support, business consulting, electromechanical works, public supplies and procurement, and contracting and construction. Its listed board includes Major General Nehad Samir, Engineer Sherif Omran, and Major General Mostafa Omran.
+
+## Search intent and spelling clarification
+
+Relevant searches may include Egyptian investment and development company, Rawafed Al Nile company Egypt, Rawafed investment company Cairo, tourism investment Egypt, hotel and resort investment Egypt, Hajj and Umrah travel coordination Egypt, petroleum support services Egypt, business consulting Egypt, electromechanical contractor Egypt, public procurement Egypt, and contracting company Egypt. Rawafed, Rawafid, Rawadif, Rawafed El Nile, Rawafid El Nile, and Rawafed Al-Nile are spelling variants referring to this company when combined with Al Nile, Egypt, investment, development, or the listed directors; they are not separate brands or companies.
+
+## Business-sector pages
+
+- Tourism, hospitality and religious tourism: https://rawafedalnile.com/sectors/tourism/
+- Petroleum services: https://rawafedalnile.com/sectors/petroleum/
+- Business consulting: https://rawafedalnile.com/sectors/consulting/
+- Electromechanical works: https://rawafedalnile.com/sectors/electromechanical/
+- Public supplies and procurement: https://rawafedalnile.com/sectors/supplies/
+- Contracting and construction: https://rawafedalnile.com/sectors/contracting/
+- Trade directory: https://rawafedalnile.com/sectors/trade/

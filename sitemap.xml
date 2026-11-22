@@ -2,12 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rawafedalnile.com/</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
-  <url><loc>https://rawafedalnile.com/sectors/tourism/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/petroleum/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/consulting/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/electromechanical/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/trade/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/supplies/</loc></url>
-  <url><loc>https://rawafedalnile.com/sectors/contracting/</loc></url>
+  <url><loc>https://rawafedalnile.com/sectors/tourism/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/petroleum/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/consulting/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/electromechanical/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/trade/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/supplies/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://rawafedalnile.com/sectors/contracting/</loc><lastmod>2026-11-22</lastmod></url>
 </urlset>

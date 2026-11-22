@@ -8,7 +8,7 @@
         <meta name="description" content="Rawafed Al Nile for Investment and Development (روافد النيل للاستثمار والتنمية) is an Egyptian company working across tourism and travel services, petroleum services, business consulting, electromechanical works, public supplies, and contracting and construction.">
         <meta name="author" content="Rawafed Al Nile for Investment and Development">
         <meta name="keywords" content="Rawafed, Rawafid, Rawafed Al Nile, Rawafed Al-Nile, Rawafid Al Nile, Rawafed El Nile, Rawafid El Nile, Rawafedalnile, investment, development, Egypt investment, Egypt development, روافد, روافد النيل, استثمار, تطوير, استثمار وتطوير, الاستثمار والتنمية, Nehad Samir, Nihad Samir, Sherif Omran, Mostafa Omran, Mustafa Omran, نهاد سمير, نيهاد سمير, شريف عمران, مصطفى عمران, مصطفي عمران">
-        <meta name="robots" content="index,follow">
+        <meta name="robots" content="index,follow,max-image-preview:large">
         <meta name="theme-color" content="#12335b">
         <link rel="canonical" href="https://rawafedalnile.com/">
         <link rel="image_src" href="https://rawafedalnile.com/assets/rawafed-link-preview.png">
@@ -53,13 +53,27 @@
           ],
           "email": "info@rawafedalnile.com",
           "telephone": ["+20 10 9747 4749", "+20 10 0215 9145", "+20 11 4981 8181"],
+          "contactPoint": {"@type": "ContactPoint", "contactType": "business inquiries", "email": "info@rawafedalnile.com", "telephone": "+20 10 9747 4749", "areaServed": "EG", "availableLanguage": ["en", "ar"]},
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "26 Abdullah bin Taher, Zone 6, Nasr City",
             "addressLocality": "Cairo",
             "addressCountry": "EG"
           },
-          "areaServed": {"@type": "Country", "name": "Egypt"}
+          "location": [
+            {"@type": "Place", "name": "Cairo office", "address": {"@type": "PostalAddress", "streetAddress": "26 Abdullah bin Taher, Zone 6, Nasr City", "addressLocality": "Cairo", "addressCountry": "EG"}},
+            {"@type": "Place", "name": "Giza office", "address": {"@type": "PostalAddress", "streetAddress": "Al-Majd Mall, 4th Floor, 6th of October City", "addressLocality": "Giza", "addressCountry": "EG"}}
+          ],
+          "areaServed": {"@type": "Country", "name": "Egypt"},
+          "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Rawafed Al Nile business sectors", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tourism, hospitality and religious tourism", "url": "https://rawafedalnile.com/sectors/tourism/"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Petroleum services", "url": "https://rawafedalnile.com/sectors/petroleum/"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Business consulting", "url": "https://rawafedalnile.com/sectors/consulting/"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electromechanical works", "url": "https://rawafedalnile.com/sectors/electromechanical/"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Public supplies and procurement", "url": "https://rawafedalnile.com/sectors/supplies/"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Contracting and construction", "url": "https://rawafedalnile.com/sectors/contracting/"}}
+          ]
+          }
           },
           {
             "@type": "WebSite",
