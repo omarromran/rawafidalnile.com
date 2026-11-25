@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
 # The public company profile is available to search and answer engines.
@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://rawafedalnile.com/sitemap.xml
+Sitemap: https://rawafidalnile.com/sitemap.xml
