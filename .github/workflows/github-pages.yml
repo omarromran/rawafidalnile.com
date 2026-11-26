@@ -26,5 +26,6 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: d76a5b4a213eebcfd8d77145ff57dd69
+          wranglerVersion: "4.168.0"
           command: deploy
