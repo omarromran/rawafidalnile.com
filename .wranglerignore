@@ -1,0 +1,13 @@
+.git*
+.git/**
+.github/
+.agents/
+.codex/
+.wrangler/
+node_modules/
+screenshots/
+*.psd
+*.sketch
+*.fig
+wrangler.toml
+.wranglerignore

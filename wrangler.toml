@@ -1,3 +1,29 @@
 name = "rawafidalnile-com"
-pages_build_output_dir = "."
-compatibility_date = "2026-11-21"
+main = "worker.js"
+compatibility_date = "2026-11-26"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+head_sampling_rate = 1
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 1
+
+[[routes]]
+pattern = "rawafedalnile.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.rawafedalnile.com"
+custom_domain = true

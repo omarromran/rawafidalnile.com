@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to Cloudflare Worker
 
 on:
   push:
@@ -7,11 +7,9 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: github-pages
+  group: cloudflare-worker
   cancel-in-progress: true
 
 jobs:
@@ -24,23 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: .
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Purge Cloudflare cache
-        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ZONE_ID != '' }}
-        run: |
-          curl --fail-with-body --request POST \
-            "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
-            --header "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            --header "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
