@@ -35,6 +35,19 @@ if(primaryNav&&navLinks&&!document.getElementById('mobile-menu')){
   mobileMenu.addEventListener('click',()=>{const open=navLinks.classList.toggle('is-open'); mobileMenu.setAttribute('aria-expanded',String(open)); mobileMenu.setAttribute('aria-label',open?'Close menu':'Open menu');});
   navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('is-open');mobileMenu.setAttribute('aria-expanded','false');}));
 }
+const sectorNav=document.querySelector('.sector-page #site-nav');
+const sectorMenu=document.querySelector('.sector-page #menu');
+if(sectorNav&&sectorMenu){
+  sectorMenu.addEventListener('click',()=>{
+    const open=sectorNav.classList.toggle('is-open');
+    sectorMenu.setAttribute('aria-expanded',String(open));
+    sectorMenu.setAttribute('aria-label',open?'Close menu':'Open menu');
+  });
+  sectorNav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
+    sectorNav.classList.remove('is-open');
+    sectorMenu.setAttribute('aria-expanded','false');
+  }));
+}
 function updateThemeButton(){if(!themeButton)return;const light=theme==='light';themeButton.textContent=ar?(light?'الوضع الداكن':'الوضع الفاتح'):(light?'Dark mode':'Light mode');themeButton.setAttribute('aria-label',ar?(light?'التبديل إلى الوضع الداكن':'التبديل إلى الوضع الفاتح'):(light?'Switch to dark mode':'Switch to light mode'));}
 function setTheme(value){theme=value==='light'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('theme',theme)}catch(e){}updateThemeButton()}
 function walk(n,f){if(n.nodeType===3){const t=N(n.nodeValue);if(t)f(n,t)}else if(!/^(SCRIPT|STYLE)$/.test(n.nodeName))n.childNodes.forEach(c=>walk(c,f))}
